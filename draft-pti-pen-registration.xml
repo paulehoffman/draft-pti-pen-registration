@@ -23,20 +23,14 @@
 <front>
 <title abbrev="PEN registration">Registration Procedures for Private Enterprise Numbers (PENs)</title>
 
-<author fullname="Michelle Cotton" initials="M" surname="Cotton">
-<organization abbrev="PTI">
-Public Technical Identifiers, an affiliate of ICANN
-</organization>
-<address>
-<email>michelle.cotton@iana.org</email>
-</address>
-</author>
-
 <author fullname="Amanda Baber" initials="A" surname="Baber">
-<organization abbrev="PTI">
-Public Technical Identifiers, an affiliate of ICANN
+<organization>
+Public Technical Identifiers
 </organization>
 <address>
+<postal>
+<street>ICANN</street>
+</postal>
 <email>amanda.baber@iana.org</email>
 </address>
 </author>
@@ -143,12 +137,11 @@ assigned sequentially.
 </t>
 
 <t>
-The registry is a list of values and their assignees. The assignee is also
-considered the registration's "change controller," as described in
+The assignee is considered the registration's "change controller," as described in
 <xref target="RFC8126"/>. The change controller is effectively the "owner" of the
-registration and can verify or refuse attempts to modify or delete it.
-Requests for PEN registration must include contact information that can be
-used for verification.
+registration and can verify or refuse attempts to modify or delete it. In addition to
+providing the name of the change controller, requests for registration must designate a
+contact and supply contact information that can be used for verification.
 </t>
 
 <t>
@@ -178,7 +171,7 @@ with a registered value can be modified, including the name of the assignee.
 </t>
 
 <t>
-Modification requests require authorization by the assignee or change controller. 
+Modification requests require authorization by the assignee (the change controller). 
 Authorization will be validated either with information kept on file with
 IANA or with other identifying documentation, if necessary.
 </t>
@@ -260,7 +253,7 @@ the name and assignee of the owner listed in the PEN registry.
 <t>
 An earlier version of this document was authored by Pearl Liang and
 Alexey Melnikov. Additional significant contributions have come from
-Dan Romascanu, Bert Wijnen, David Conrad, and Benoit Claise.
+Dan Romascanu, Bert Wijnen, David Conrad, Michelle Cotton, and Benoit Claise.
 </t>
       
 </section>
