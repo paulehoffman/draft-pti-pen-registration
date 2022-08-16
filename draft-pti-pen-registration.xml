@@ -23,13 +23,15 @@
 <front>
 <title abbrev="PEN registration">Registration Procedures for Private Enterprise Numbers (PENs)</title>
 
-<author fullname="Amanda Baber" initials="A" surname="Baber">
-<organization>
-Public Technical Identifiers
-</organization>
+<author initials="A." surname="Baber" fullname="Amanda Baber">
+<organization abbrev="IANA">Internet Assigned Numbers Authority</organization>
 <address>
 <postal>
-<street>ICANN</street>
+<street>PTI/ICANN</street>
+<street>12025 Waterfront Drive</street>
+<city>Los Angeles</city>
+<code>90094</code>
+<country>United States of America</country>
 </postal>
 <email>amanda.baber@iana.org</email>
 </address>
@@ -124,36 +126,29 @@ and vCard <xref target="RFC6350"/>.
 
 <t>
 Private Enterprise Numbers (PENs) are assigned by IANA. Requests for new
-assignments and for the modification of existing assignments can be
+assignments or the modification of existing assignments can be
 submitted through the IANA web site.
+</t>
+
+<t>
+IANA maintains the PEN registry in accordance with the "First Come First
+Served" registration policy described in <xref target="RFC8126"/>.  Values are 
+assigned sequentially.
 </t>
 
 <section title="Requesting a PEN Assignment">
 
 <t>
-IANA maintains the PEN registry in accordance with the "First Come First
-Served" registration policy described in <xref target="RFC8126"/>.  Values are generally
-assigned sequentially.
+Requests for assignment must provide the name of the assignee, the name of a 
+public contact who can respond to questions about the assignment, and contact 
+information that can be used to verify change requests. The contact's name and
+email address will be included in the public registry.
 </t>
 
 <t>
-The assignee is considered the registration's "change controller," as described in
-<xref target="RFC8126"/>. The change controller is effectively the "owner" of the
-registration and can verify or refuse attempts to modify or delete it. In addition to
-providing the name of the change controller, requests for registration must designate a
-contact and supply contact information that can be used for verification.
-</t>
-
-<t>
-ASCII text representations are required, but requesters may provide
-additional non-ASCII representations.
-</t>
-
-<t>
-Parties may request more than one PEN, but in most cases it is more
-appropriate to obtain a sub-assignment of the existing registration.
-Sub-assignments are maintained by the assignee.  They are not recorded by
-IANA.
+A proposed assignee may request multiple PENs, but obtaining one PEN and making 
+internal sub-assignments is typically more appropriate. (Sub-assignments 
+should not be reported to IANA.)
 </t>
 
 <t>
@@ -171,9 +166,9 @@ with a registered value can be modified, including the name of the assignee.
 </t>
 
 <t>
-Modification requests require authorization by the assignee (the change controller). 
-Authorization will be validated either with information kept on file with
-IANA or with other identifying documentation, if necessary.
+Modification requests require authorization by a representative of the 
+assignee.  Authorization will be validated either with information kept on 
+file with IANA or with other identifying documentation, if necessary.
 </t>
 
 </section>
@@ -181,10 +176,9 @@ IANA or with other identifying documentation, if necessary.
 <section title="Deleting a PEN Record">
 
 <t>
-Although such requests are rare, an assignee can ask IANA to delete a
-registration.  Values associated with deleted registrations will not become
-available for re-assignment until all other unassigned values have been
-exhausted.
+Although such requests are rare, registrations can be deleted. Values 
+associated with deleted registrations will not be made available for 
+re-assignment until all other unassigned values have been exhausted.
 </t>
 
 </section>
