@@ -18,7 +18,7 @@
 <?rfc sortrefs="yes" ?>
 <?rfc compact="yes" ?>
 <?rfc subcompact="no" ?>
-<rfc category="info" docName="draft-pti-pen-registration"
+<rfc category="info" docName="draft-pti-pen-registration-07"
 	ipr="trust200902">
 <front>
 <title abbrev="PEN registration">Registration Procedures for Private Enterprise Numbers (PENs)</title>
@@ -40,6 +40,12 @@
 <author fullname="Paul Hoffman" initials="P" surname="Hoffman">
 <organization>ICANN</organization>
 <address>
+<postal>
+<street>12025 Waterfront Drive</street>
+<city>Los Angeles</city>
+<code>90094</code>
+<country>United States of America</country>
+</postal>
 <email>paul.hoffman@icann.org</email>
 </address>
 </author>
