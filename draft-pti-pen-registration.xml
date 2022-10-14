@@ -133,7 +133,7 @@ and vCard <xref target="RFC6350"/>.
 <t>
 Private Enterprise Numbers (PENs) are assigned by IANA. Requests for new
 assignments or the modification of existing assignments can be
-submitted through the IANA web site.
+submitted through the IANA web site at https://www.iana.org/protocols/apply.
 </t>
 
 <t>
@@ -182,9 +182,11 @@ file with IANA or with other identifying documentation, if necessary.
 <section title="Deleting a PEN Record">
 
 <t>
-Although such requests are rare, registrations can be deleted. Values 
-associated with deleted registrations will not be made available for 
-re-assignment until all other unassigned values have been exhausted.
+Although such requests are rare, registrations can be deleted. When a 
+registration is deleted, all identifying information is removed from the 
+registry, and the value is marked as "returned." Returned values will not be 
+made available for re-assignment until all other unassigned values have been 
+exhausted.
 </t>
 
 </section>
