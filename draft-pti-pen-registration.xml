@@ -186,14 +186,15 @@ Although such requests are rare, registrations can be deleted. When a
 registration is deleted, all identifying information is removed from the 
 registry, and the value is marked as "returned." Returned values will not be 
 made available for re-assignment until all other unassigned values have been 
-exhausted.
+exhausted; as can be seen in <xref target="specifics"/>, the unassigned values
+are unlikely to ever run out.
 </t>
 
 </section>
 
 </section>
 
-<section title="PEN Registry Specifics">
+<section title="PEN Registry Specifics" anchor="specifics">
 
 <t>
 The range for values after the PEN prefix is 0 to 2**32-1. The values 0 and 4294967295
