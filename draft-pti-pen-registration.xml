@@ -266,6 +266,12 @@ Dan Romascanu, Bert Wijnen, David Conrad, Michelle Cotton, and Benoit Claise.
 
 <back>
 
+<references title="Normative References">
+
+&RFC8126;
+
+</references>
+
 <references title="Informative References">
 
 <reference anchor="ASN1" target="https://www.itu.int/itu-t/recommendations/rec.aspx?rec=x.690">
@@ -285,7 +291,6 @@ Dan Romascanu, Bert Wijnen, David Conrad, Michelle Cotton, and Benoit Claise.
 &RFC5424;
 &RFC5612;
 &RFC6350;
-&RFC8126;
 </references>
 
 </back>
